@@ -1,0 +1,17 @@
+{
+  "Environment": "Syncfusion",
+  "solutionData": {
+    "solutionName": "PowerAppsComponents",
+    "publisherName": "Syncfusion",
+    "publisherPrefix": "Sf",
+    "solutionVersion": "34.2.6",
+    "includeComponents": ["Add your component folder name here to include"],
+    "excludeComponents": ["Add your component folder name here to exclude"],
+    "publishManagedSolution": true
+  },
+  "componentData": {
+    "sampleLocation": "grids",
+    "componentName": "SfGrid",
+    "componentNameSpace": "Syncfusion"
+  }
+}

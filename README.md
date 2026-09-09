@@ -1,2 +1,19 @@
-# powerapps-gantt-with-edit
-Standalone Power Apps PCF sample repository for Syncfusion Gantt Chart with edit functionality. Extracted from the existing ej2-powerapps-components project to provide an independent sample that can be built, packaged, and deployed separately.
+# Syncfusion Gantt Chart PCF Component
+
+A Power Apps Component Framework (PCF) control built with Syncfusion Gantt Chart component with **editing features enabled** for project management and task scheduling.
+
+## Quick Start
+
+### Step 1: Install Dependencies
+```bash
+npm i
+```
+
+### Step 2: Build and Package
+```bash
+npm run pack
+```
+
+---
+
+**Features**: Only editing capabilities are enabled in this component version.
