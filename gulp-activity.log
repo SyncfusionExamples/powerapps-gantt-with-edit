@@ -1,0 +1,539 @@
+[9/9/2026, 7:04:48 PM] [gulp "create-solution"] [INFO] 🛠️ Creating the solution SyncfusionPowerAppsComponents.
+[9/9/2026, 7:04:59 PM] [gulp "create-solution"] [INFO] Dataverse solution project with name 'SyncfusionPowerAppsComponents' created successfully in: 'D:\ej2-powerapps\edit\Newfolder\SyncfusionPowerAppsComponents'
+Dataverse solution files were successfully created for this project in the sub-directory Other, using solution name SyncfusionPowerAppsComponents, publisher name Syncfusion, and customization prefix sf.
+Please verify the publisher information and solution name found in the Solution.xml file.
+[9/9/2026, 7:04:59 PM] [gulp "create-solution"] [INFO] ➕ Adding D:\ej2-powerapps\edit\Newfolder\components\gantt\gantt.pcfproj to the solution.
+[9/9/2026, 7:05:09 PM] [gulp "create-solution"] [INFO] Project reference successfully added to Dataverse solution project.
+[9/9/2026, 7:05:09 PM] [gulp "create-solution"] [INFO] Updated "D:\ej2-powerapps\edit\Newfolder\SyncfusionPowerAppsComponents\SyncfusionPowerAppsComponents.cdsproj"
+[9/9/2026, 7:05:09 PM] [gulp "create-solution"] [INFO] The value is already up to date "D:\ej2-powerapps\edit\Newfolder\SyncfusionPowerAppsComponents\SyncfusionPowerAppsComponents.cdsproj".
+[9/9/2026, 7:05:09 PM] [gulp "update-version"] [INFO] 🔄 Updating the version number...
+[9/9/2026, 7:05:09 PM] [gulp "update-version"] [INFO] The value is already up to date "package.json".
+[9/9/2026, 7:05:09 PM] [gulp "update-version"] [INFO] Updated "D:\ej2-powerapps\edit\Newfolder\SyncfusionPowerAppsComponents\src\Other\Solution.xml"
+[9/9/2026, 7:05:09 PM] [gulp "update-version"] [INFO] The value is already up to date "components\gantt\SfGantt\ControlManifest.Input.xml".
+[9/9/2026, 7:05:09 PM] [gulp "update-version"] [INFO] The value is already up to date "components\gantt\SfGantt\strings\SfGantt.1033.resx".
+[9/9/2026, 7:05:09 PM] [gulp "update-version"] [SUCCESS] ✅ Version number updated successfully.
+[9/9/2026, 7:05:09 PM] [gulp "build"] [INFO] 🚀 Starting the build process...
+[9/9/2026, 7:09:49 PM] [gulp "build"] [INFO] Determining projects to restore...
+ Restored D:\ej2-powerapps\edit\Newfolder\components\gantt\gantt.pcfproj (in 1.18 sec).
+ Restored D:\ej2-powerapps\edit\Newfolder\SyncfusionPowerAppsComponents\SyncfusionPowerAppsComponents.cdsproj (in 1.21 sec).
+ 
+ > gantt@1.0.0 build
+ > npm run activate-license && pcf-scripts build --noColor --buildMode production --outDir D:\ej2-powerapps\edit\Newfolder\components\gantt\out\controls --buildSource MSBuild
+ 
+ 
+ > gantt@1.0.0 activate-license
+ > cd ../../ && npx syncfusion-license activate "../../syncfusion-license.txt"
+ 
+ (INFO) Syncfusion License imported successfully.
+ [7:06:26 PM] [build] Initializing...
+ [7:06:26 PM] [build] Validating manifest...
+ [7:06:27 PM] [build] Validating control...
+ [7:06:40 PM] [build] Generating manifest types...
+ [7:06:40 PM] [build] Generating design types...
+ [7:06:40 PM] [build] Running ESLint...
+ [7:07:19 PM] [build] Compiling and bundling control...
+ [Webpack stats]:
+ asset bundle.js 4.67 MiB [emitted] [minimized] [big] (name: main) 1 related asset
+ orphan modules 12.5 MiB [orphan] 695 modules
+ runtime modules 1.2 KiB 5 modules
+ built modules 9.32 MiB [built]
+  modules by path ../../node_modules/scheduler/ 7.29 KiB
+   ../../node_modules/scheduler/index.js 197 bytes [built] [code generated]
+   ../../node_modules/scheduler/cjs/scheduler.production.min.js 7.1 KiB [built] [code generated]
+  ./SfGantt/index.ts + 435 modules 9.31 MiB [not cacheable] [built] [code generated]
+  ../../node_modules/object-assign/index.js 2.17 KiB [built] [code generated]
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3185:44-49
+ export 'Image' (imported as 'Image') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3188:44-49
+ export 'Table' (imported as 'Table') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3191:44-55
+ export 'EmojiPicker' (imported as 'EmojiPicker') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3194:44-55
+ export 'FileManager' (imported as 'FileManager') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3197:44-57
+ export 'FormatPainter' (imported as 'FormatPainter') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3210:36-50
+ export 'MarkdownEditor' (imported as 'MarkdownEditor') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3218:77-82
+ export 'Table' (imported as 'Table') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+ This can impact web performance.
+ Assets: 
+  bundle.js (4.67 MiB)
+   Largest modules: ./SfGantt/index.ts + 435 modules (9.31 MiB), ../../node_modules/scheduler/cjs/scheduler.production.min.js (7.1 KiB), ../../node_modules/object-assign/index.js (2.17 KiB)
+ 
+ WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+ Entrypoints:
+  main (4.67 MiB)
+    bundle.js
+ 
+ WARNING in webpack performance recommendations: 
+ You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+ For more info visit https://webpack.js.org/guides/code-splitting/
+ 
+ webpack 5.110.3 compiled with 10 warnings in 122333 ms
+ [7:09:43 PM] [build] Generating build outputs...
+ [7:09:43 PM] [build] Succeeded
+ Running Solution Packager to build package type: Managed bin\release\SyncfusionPowerAppsComponents.zip
+
+Packing D:\ej2-powerapps\edit\Newfolder\SyncfusionPowerAppsComponents\obj\release\Metadata to bin\release\SyncfusionPowerAppsComponents.zip
+
+Processing Component: Entities
+Processing Component: Roles
+Processing Component: Workflows
+Processing Component: FieldSecurityProfiles
+Processing Component: Templates
+Processing Component: EntityMaps
+Processing Component: EntityRelationships
+Processing Component: OrganizationSettings
+Processing Component: optionsets
+Processing Component: CustomControls
+ - Syncfusion.SfGantt
+Processing Component: SolutionPluginAssemblies
+Processing Component: EntityDataProviders
+Processing Sharded Component Files
+
+Managed Pack complete.
+
+ Solution: bin\release\SyncfusionPowerAppsComponents.zip generated.
+ Solution Package Type: Managed generated.
+ Completed intermediate files clean up.
+
+Build succeeded.
+  0 Warning(s)
+  0 Error(s)
+
+Time Elapsed 00:04:35.78
+[9/9/2026, 7:09:49 PM] [gulp "build"] [SUCCESS] 📦 The solution package is located at: D:\ej2-powerapps\edit\Newfolder\SyncfusionPowerAppsComponents\bin\Debug\SyncfusionPowerAppsComponents.zip
+[9/9/2026, 7:12:40 PM] [gulp "create-solution"] [INFO] 🛠️ Creating the solution PowerAppsComponents.
+[9/9/2026, 7:12:48 PM] [gulp "create-solution"] [INFO] Dataverse solution project with name 'PowerAppsComponents' created successfully in: 'D:\ej2-powerapps\edit\Newfolder\PowerAppsComponents'
+Dataverse solution files were successfully created for this project in the sub-directory Other, using solution name PowerAppsComponents, publisher name Syncfusion, and customization prefix sf.
+Please verify the publisher information and solution name found in the Solution.xml file.
+[9/9/2026, 7:12:48 PM] [gulp "create-solution"] [INFO] ➕ Adding D:\ej2-powerapps\edit\Newfolder\components\gantt\gantt.pcfproj to the solution.
+[9/9/2026, 7:12:57 PM] [gulp "create-solution"] [INFO] Project reference successfully added to Dataverse solution project.
+[9/9/2026, 7:12:57 PM] [gulp "create-solution"] [INFO] Updated "D:\ej2-powerapps\edit\Newfolder\PowerAppsComponents\PowerAppsComponents.cdsproj"
+[9/9/2026, 7:12:57 PM] [gulp "create-solution"] [INFO] The value is already up to date "D:\ej2-powerapps\edit\Newfolder\PowerAppsComponents\PowerAppsComponents.cdsproj".
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [INFO] 🔄 Updating the version number...
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [INFO] Updated "package.json"
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [INFO] Updated "D:\ej2-powerapps\edit\Newfolder\PowerAppsComponents\src\Other\Solution.xml"
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [INFO] Updated "components\gantt\out\controls\SfGantt\ControlManifest.xml"
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [INFO] Updated "components\gantt\out\controls\SfGantt\strings\SfGantt.1033.resx"
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [INFO] Updated "components\gantt\SfGantt\ControlManifest.Input.xml"
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [INFO] Updated "components\gantt\SfGantt\strings\SfGantt.1033.resx"
+[9/9/2026, 7:12:57 PM] [gulp "update-version"] [SUCCESS] ✅ Version number updated successfully.
+[9/9/2026, 7:12:57 PM] [gulp "build"] [INFO] 🚀 Starting the build process...
+[9/9/2026, 7:15:14 PM] [gulp "build"] [INFO] Determining projects to restore...
+ Restored D:\ej2-powerapps\edit\Newfolder\PowerAppsComponents\PowerAppsComponents.cdsproj (in 5.36 sec).
+ 1 of 2 projects are up-to-date for restore.
+ 
+ > gantt@1.0.0 build
+ > npm run activate-license && pcf-scripts build --noColor --buildMode production --outDir D:\ej2-powerapps\edit\Newfolder\components\gantt\out\controls --buildSource MSBuild
+ 
+ 
+ > gantt@1.0.0 activate-license
+ > cd ../../ && npx syncfusion-license activate "../../syncfusion-license.txt"
+ 
+ (INFO) Syncfusion License imported successfully.
+ [7:13:22 PM] [build] Initializing...
+ [7:13:22 PM] [build] Validating manifest...
+ [7:13:23 PM] [build] Validating control...
+ [7:13:26 PM] [build] Generating manifest types...
+ [7:13:26 PM] [build] Generating design types...
+ [7:13:26 PM] [build] Running ESLint...
+ [7:13:31 PM] [build] Compiling and bundling control...
+ [Webpack stats]:
+ asset bundle.js 4.67 MiB [emitted] [minimized] [big] (name: main) 1 related asset
+ orphan modules 12.5 MiB [orphan] 695 modules
+ runtime modules 1.2 KiB 5 modules
+ built modules 9.32 MiB [built]
+  modules by path ../../node_modules/scheduler/ 7.29 KiB
+   ../../node_modules/scheduler/index.js 197 bytes [built] [code generated]
+   ../../node_modules/scheduler/cjs/scheduler.production.min.js 7.1 KiB [built] [code generated]
+  ./SfGantt/index.ts + 435 modules 9.31 MiB [not cacheable] [built] [code generated]
+  ../../node_modules/object-assign/index.js 2.17 KiB [built] [code generated]
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3185:44-49
+ export 'Image' (imported as 'Image') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3188:44-49
+ export 'Table' (imported as 'Table') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3191:44-55
+ export 'EmojiPicker' (imported as 'EmojiPicker') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3194:44-55
+ export 'FileManager' (imported as 'FileManager') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3197:44-57
+ export 'FormatPainter' (imported as 'FormatPainter') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3210:36-50
+ export 'MarkdownEditor' (imported as 'MarkdownEditor') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3218:77-82
+ export 'Table' (imported as 'Table') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 120:46-62
+ 
+ WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+ This can impact web performance.
+ Assets: 
+  bundle.js (4.67 MiB)
+   Largest modules: ./SfGantt/index.ts + 435 modules (9.31 MiB), ../../node_modules/scheduler/cjs/scheduler.production.min.js (7.1 KiB), ../../node_modules/object-assign/index.js (2.17 KiB)
+ 
+ WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+ Entrypoints:
+  main (4.67 MiB)
+    bundle.js
+ 
+ WARNING in webpack performance recommendations: 
+ You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+ For more info visit https://webpack.js.org/guides/code-splitting/
+ 
+ webpack 5.110.3 compiled with 10 warnings in 93885 ms
+ [7:15:10 PM] [build] Generating build outputs...
+ [7:15:10 PM] [build] Succeeded
+ Running Solution Packager to build package type: Managed bin\release\PowerAppsComponents.zip
+
+Packing D:\ej2-powerapps\edit\Newfolder\PowerAppsComponents\obj\release\Metadata to bin\release\PowerAppsComponents.zip
+
+Processing Component: Entities
+Processing Component: Roles
+Processing Component: Workflows
+Processing Component: FieldSecurityProfiles
+Processing Component: Templates
+Processing Component: EntityMaps
+Processing Component: EntityRelationships
+Processing Component: OrganizationSettings
+Processing Component: optionsets
+Processing Component: CustomControls
+ - Syncfusion.SfGantt
+Processing Component: SolutionPluginAssemblies
+Processing Component: EntityDataProviders
+Processing Sharded Component Files
+
+Managed Pack complete.
+
+ Solution: bin\release\PowerAppsComponents.zip generated.
+ Solution Package Type: Managed generated.
+ Completed intermediate files clean up.
+
+Build succeeded.
+  0 Warning(s)
+  0 Error(s)
+
+Time Elapsed 00:02:15.43
+[9/9/2026, 7:15:14 PM] [gulp "build"] [SUCCESS] 📦 The solution package is located at: D:\ej2-powerapps\edit\Newfolder\PowerAppsComponents\bin\Debug\PowerAppsComponents.zip
+[9/9/2026, 8:56:24 PM] [gulp "create-solution"] [INFO] 🛠️ Creating the solution PowerAppsComponents.
+[9/9/2026, 8:56:32 PM] [gulp "create-solution"] [INFO] Dataverse solution project with name 'PowerAppsComponents' created successfully in: 'D:\ej2-powerapps\edit\New folder\powerapps-gantt-with-edit\PowerAppsComponents'
+Dataverse solution files were successfully created for this project in the sub-directory Other, using solution name PowerAppsComponents, publisher name Syncfusion, and customization prefix sf.
+Please verify the publisher information and solution name found in the Solution.xml file.
+[9/9/2026, 8:56:32 PM] [gulp "create-solution"] [ERROR] 🚫 Ensure that the entire folder path of PowerApps repository does not contain spaces.
+ Current Path: D:\ej2-powerapps\edit\New folder\powerapps-gantt-with-edit\components\gantt\gantt.pcfproj
+[9/9/2026, 9:03:37 PM] [gulp "create-solution"] [INFO] ⚠️ Solution PowerAppsComponents already exists.
+[9/9/2026, 9:03:37 PM] [gulp "create-solution"] [INFO] ➕ Adding D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\components\gantt\gantt.pcfproj to the solution.
+[9/9/2026, 9:03:47 PM] [gulp "create-solution"] [INFO] Project reference successfully added to Dataverse solution project.
+[9/9/2026, 9:03:47 PM] [gulp "create-solution"] [INFO] Updated "D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\PowerAppsComponents\PowerAppsComponents.cdsproj"
+[9/9/2026, 9:03:47 PM] [gulp "create-solution"] [INFO] The value is already up to date "D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\PowerAppsComponents\PowerAppsComponents.cdsproj".
+[9/9/2026, 9:03:47 PM] [gulp "update-version"] [INFO] 🔄 Updating the version number...
+[9/9/2026, 9:03:47 PM] [gulp "update-version"] [INFO] The value is already up to date "package.json".
+[9/9/2026, 9:03:47 PM] [gulp "update-version"] [INFO] Updated "D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\PowerAppsComponents\src\Other\Solution.xml"
+[9/9/2026, 9:03:47 PM] [gulp "update-version"] [INFO] The value is already up to date "components\gantt\SfGantt\ControlManifest.Input.xml".
+[9/9/2026, 9:03:47 PM] [gulp "update-version"] [INFO] The value is already up to date "components\gantt\SfGantt\strings\SfGantt.1033.resx".
+[9/9/2026, 9:03:47 PM] [gulp "update-version"] [SUCCESS] ✅ Version number updated successfully.
+[9/9/2026, 9:03:47 PM] [gulp "build"] [INFO] 🚀 Starting the build process...
+[9/9/2026, 9:08:57 PM] [gulp "build"] [INFO] Determining projects to restore...
+ Restored D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\components\gantt\gantt.pcfproj (in 2.63 sec).
+ Restored D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\PowerAppsComponents\PowerAppsComponents.cdsproj (in 3.93 sec).
+ 
+ > gantt@1.0.0 build
+ > npm run activate-license && pcf-scripts build --noColor --buildMode production --outDir D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\components\gantt\out\controls --buildSource MSBuild
+ 
+ 
+ > gantt@1.0.0 activate-license
+ > cd ../../ && npx syncfusion-license activate "../../syncfusion-license.txt"
+ 
+ Please add the syncfusion-license.txt file or set environment variable SYNCFUSION_LICENSE
+ [9:05:00 PM] [build] Initializing...
+ [9:05:00 PM] [build] Validating manifest...
+ [9:05:00 PM] [build] Validating control...
+ [9:05:08 PM] [build] Generating manifest types...
+ [9:05:08 PM] [build] Generating design types...
+ [9:05:08 PM] [build] Running ESLint...
+ [9:05:43 PM] [build] Compiling and bundling control...
+ [Webpack stats]:
+ asset bundle.js 4.67 MiB [emitted] [minimized] [big] (name: main) 1 related asset
+ orphan modules 12.5 MiB [orphan] 695 modules
+ runtime modules 1.2 KiB 5 modules
+ built modules 9.32 MiB [built]
+  modules by path ../../node_modules/scheduler/ 7.29 KiB
+   ../../node_modules/scheduler/index.js 197 bytes [built] [code generated]
+   ../../node_modules/scheduler/cjs/scheduler.production.min.js 7.1 KiB [built] [code generated]
+  ./SfGantt/index.ts + 435 modules 9.31 MiB [not cacheable] [built] [code generated]
+  ../../node_modules/object-assign/index.js 2.17 KiB [built] [code generated]
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3185:44-49
+ export 'Image' (imported as 'Image') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 113:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3188:44-49
+ export 'Table' (imported as 'Table') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 113:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3191:44-55
+ export 'EmojiPicker' (imported as 'EmojiPicker') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 113:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3194:44-55
+ export 'FileManager' (imported as 'FileManager') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 113:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3197:44-57
+ export 'FormatPainter' (imported as 'FormatPainter') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 113:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3210:36-50
+ export 'MarkdownEditor' (imported as 'MarkdownEditor') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 113:46-62
+ 
+ WARNING in ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/dialog-edit.js 3218:77-82
+ export 'Table' (imported as 'Table') was not found in '@syncfusion/ej2-richtexteditor' (possible exports: Count, HtmlEditor, Link, QuickToolbar, RichTextEditor, Toolbar)
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/edit.js 7:0-43 50:30-40 299:32-42
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/actions/actions.js 4:0-23 4:0-23
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/gantt/index.js 5:0-34 5:0-34
+  @ ../../node_modules/@syncfusion/ej2-gantt/src/index.js 4:0-30 4:0-30
+  @ ../../node_modules/@syncfusion/ej2-gantt/index.js 4:0-28 4:0-28
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/src/index.js 3:0-38 3:0-38
+  @ ../../node_modules/@syncfusion/ej2-react-gantt/index.js 4:0-28 4:0-28
+  @ ./SfGantt/SfGantt.tsx 1:0-75 12:299-313 34:38-44 35:15-19
+  @ ./SfGantt/index.ts 4:0-45 113:46-62
+ 
+ WARNING in asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
+ This can impact web performance.
+ Assets: 
+  bundle.js (4.67 MiB)
+   Largest modules: ./SfGantt/index.ts + 435 modules (9.31 MiB), ../../node_modules/scheduler/cjs/scheduler.production.min.js (7.1 KiB), ../../node_modules/object-assign/index.js (2.17 KiB)
+ 
+ WARNING in entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
+ Entrypoints:
+  main (4.67 MiB)
+    bundle.js
+ 
+ WARNING in webpack performance recommendations: 
+ You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
+ For more info visit https://webpack.js.org/guides/code-splitting/
+ 
+ webpack 5.110.3 compiled with 10 warnings in 167910 ms
+ [9:08:51 PM] [build] Generating build outputs...
+ [9:08:52 PM] [build] Succeeded
+ Running Solution Packager to build package type: Managed bin\release\PowerAppsComponents.zip
+
+Packing D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\PowerAppsComponents\obj\release\Metadata to bin\release\PowerAppsComponents.zip
+
+Processing Component: Entities
+Processing Component: Roles
+Processing Component: Workflows
+Processing Component: FieldSecurityProfiles
+Processing Component: Templates
+Processing Component: EntityMaps
+Processing Component: EntityRelationships
+Processing Component: OrganizationSettings
+Processing Component: optionsets
+Processing Component: CustomControls
+ - Syncfusion.SfGantt
+Processing Component: SolutionPluginAssemblies
+Processing Component: EntityDataProviders
+Processing Sharded Component Files
+
+Managed Pack complete.
+
+ Solution: bin\release\PowerAppsComponents.zip generated.
+ Solution Package Type: Managed generated.
+ Completed intermediate files clean up.
+
+Build succeeded.
+  0 Warning(s)
+  0 Error(s)
+
+Time Elapsed 00:05:08.57
+[9/9/2026, 9:08:57 PM] [gulp "build"] [SUCCESS] 📦 The solution package is located at: D:\ej2-powerapps\edit\New-folder\powerapps-gantt-with-edit\PowerAppsComponents\bin\Debug\PowerAppsComponents.zip
