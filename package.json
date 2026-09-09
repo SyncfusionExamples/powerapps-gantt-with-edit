@@ -1,0 +1,20 @@
+{
+  "name": "ej2-powerapps-components",
+  "version": "34.2.6",
+  "private": true,
+  "scripts": {
+    "build": "gulp build",
+    "pack": "gulp pack",
+    "clean": "gulp clean",
+    "deploy": "gulp deploy",
+    "create-pcf": "gulp create-pcf",
+    "create-solution": "gulp create-solution"
+  },
+  "devDependencies": {
+    "gulp": "^5.0.0",
+    "shelljs": "^0.8.5"
+  },
+  "workspaces": [
+    "./components/*"
+  ]
+}
